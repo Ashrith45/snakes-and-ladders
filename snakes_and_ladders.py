@@ -33,7 +33,7 @@ def move_player(position, dice):
     new_position = position + dice
     
     if new_position > BOARD_SIZE:
-        return position  # cannot move beyond 100
+        return position  
     
     print(f"Moved to {new_position}")
     
